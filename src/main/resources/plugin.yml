@@ -1,0 +1,15 @@
+---
+name: BungeeTeleport
+website: https://github.com/skbeh/BungeeTeleport
+description: Teleport player to the specified server.
+author: skbeh
+version: 1.0.0
+
+main: org.skbeh.bungeeteleport.BungeeTeleportPlugin
+load: STARTUP
+
+commands:
+  bt:
+    description: Teleport player
+    usage: /bt [player] server
+    permission: bungeeteleport.teleport
